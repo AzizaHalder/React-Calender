@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
 
 function Header(props) {
     return (
-        <div>{props.current}</div>
+        <div className= "Header">{props.active}</div>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from "react";
+import './Day.css';
 
 function Day(props) {
     return (
         <div className="Day">
-            <table>
-                <tbody className = "w-100">
+            <table width="100%">
+                <tbody>
                 <tr className="d-flex justify-content-center">
                     {props.day.map((day, index) => <th key={index} className= "m-5">{day}</th>)}
                 </tr>  

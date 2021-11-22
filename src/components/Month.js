@@ -9,6 +9,6 @@ function Month(props) {
     )
 }
 
-export default Month;
+export default Month
 
 // {this.state.months.map((month) => <Month month={month}/>)}
